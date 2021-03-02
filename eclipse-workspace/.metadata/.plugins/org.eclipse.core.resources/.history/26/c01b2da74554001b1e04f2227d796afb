@@ -1,0 +1,28 @@
+package org.test;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class Repetive_Program {
+
+	public static void main(String[] args) {
+
+		// String sentence = "For the people by the people of the people";
+
+		Map<String, Integer> linkedmap = new LinkedHashMap<>();
+
+		linkedmap.put("For", 0);
+		linkedmap.put("the", 1);
+		linkedmap.put("people", 2);
+		linkedmap.put("by", 3);
+
+		System.out.println(linkedmap);
+
+		linkedmap.put("A", 4);
+		
+		System.out.println(linkedmap);
+
+	}
+}

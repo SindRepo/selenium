@@ -1,0 +1,17 @@
+package org.gender;
+
+public class Boy {
+	
+	public void boyName(String name) {
+		
+		System.out.println("Boy name is: " +name);
+	}
+	
+	public static void main(String[] args) {
+		
+		Boy boy = new Boy();
+		
+		boy.boyName("Bala");
+	}
+
+}

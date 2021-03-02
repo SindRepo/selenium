@@ -1,0 +1,33 @@
+package org.test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Repeated_Occurences {
+
+	public static void main(String[] args) {
+
+		String sentence = "For the people by the people of the people";
+
+		String[] words = sentence.split(" ");
+
+		Map<String, Integer> occurences = new HashMap<>();
+		
+		for (String kword : words) {
+			
+			System.out.println(words);
+			
+			Integer integer = occurences.get(kword);
+			
+	//		if (integer > 1) {
+				
+			}
+	//		
+			
+		}
+
+	//	System.out.println(occurences);
+
+	}
+
+}

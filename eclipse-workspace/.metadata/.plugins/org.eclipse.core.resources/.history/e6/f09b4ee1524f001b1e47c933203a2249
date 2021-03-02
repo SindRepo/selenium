@@ -1,0 +1,14 @@
+package org.loop;
+
+public class For_Loops {
+	
+	public static void main(String[] args) {
+		
+		for (int i = 550; i <= 555; i++) {
+			
+			System.out.println(i);
+			
+		}
+	}
+
+}

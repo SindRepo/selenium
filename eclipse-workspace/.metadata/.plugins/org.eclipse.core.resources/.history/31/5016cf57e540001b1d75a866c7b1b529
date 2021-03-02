@@ -1,0 +1,17 @@
+package org.gender;
+
+public class Girl {
+	
+	public void girlAge(int age) {
+		
+		System.out.println("Gril age is:" + age);
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Girl girl = new Girl();
+		
+		girl.girlAge(20);
+	}
+}
